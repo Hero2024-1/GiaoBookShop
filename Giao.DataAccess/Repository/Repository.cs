@@ -49,7 +49,7 @@ namespace GiaoBook.DataAccess.Repository
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Update(entity);
         }
     }
 }
